@@ -97,7 +97,7 @@ This is a REST API
 
 <hr>
 
-# 🛠️ Maybe you like to Start from scratch?
+# 🛠️ Maybe you wish to Start from scratch?
 
 - In your chosen folder type:
 
@@ -165,12 +165,19 @@ if not just change it to:
 
 - You will also need to install the required dependacies and their types:
 
-          npm i express body-parser cookie-parser compression cors
+      npm i express body-parser cookie-parser compression cors
 
   <br>
           
-          npm i -D @types/express @types/body-parser @types/cookie-parser @types/compression @types/cors
+      npm i -D @types/express @types/body-parser @types/cookie-parser @types/compression @types/cors
 
+- Later we will use MongoDB and mongoose, so we also need to install
+
+      npm i dotenv mongoose
+
+  <br>
+
+      npm i @types/dotenv @types/mongoose
 
 <br>
 
