@@ -171,13 +171,21 @@ if not just change it to:
           
       npm i -D @types/express @types/body-parser @types/cookie-parser @types/compression @types/cors
 
-- Later we will use MongoDB and mongoose, so we also need to install
+- Later we will use MongoDB and mongoose, so we also need to install them:
 
       npm i dotenv mongoose
 
   <br>
 
-      npm i @types/dotenv @types/mongoose
+      npm i -D @types/dotenv @types/mongoose
+
+- Lodash is a JS library that makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.
+
+      npm i lodash
+
+  <br>
+
+      npm i -D @types/lodash
 
 <br>
 

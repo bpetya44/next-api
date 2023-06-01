@@ -57,7 +57,7 @@ export const login = async (req: express.Request, res: express.Response) => {
         user.authentication.sessionToken = authentication(salt, user._id.toString());
         await user.save();
 
-        res.cookie('sessionToken', user.authentication.sessionToken, {
+        res.cookie('MY-AUTH-COOKIE', user.authentication.sessionToken, {
             domain: 'localhost',
             path: '/',
         });
