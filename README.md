@@ -18,6 +18,7 @@
 - [Getting Started](#-getting-started)
 
   - [Install](#-install)
+  - [Start from Scratch](#-install)
 
     </details>
       </td>
@@ -34,7 +35,7 @@
 <div align="center">
 This is a simple REST API with TypeScript allowing user registration, authentication with cookies.
 
-If user is authenticated can get all users, delete own account and update own username.
+If user is authenticated can get all users data, delete own account and update own username.
 
 </div>
 
@@ -75,7 +76,7 @@ If user is authenticated can get all users, delete own account and update own us
   Clone the repo
 
   ```sh
-  git clone https://github.com/bpetya44/
+  git clone https://github.com/bpetya44/next-api
   ```
 
 - `cd` in the root folder
@@ -92,7 +93,11 @@ If user is authenticated can get all users, delete own account and update own us
     npm start
   ```
 
-  - To run a local instance of mongodb. You can connect to it by connecting to `mongodb://127.0.0.1:27017/` with any MongoDB client like [Compass](https://www.mongodb.com/products/compass).
+  - To run a remote instance of mongodb. You can connect to it with MongoDB client like [Compass](https://www.mongodb.com/products/compass) using your URI string
+
+  - To run the server you need your `MONGO_URI`string to connect to your DB, which you should place in the `.env.exmaple` file and rename it to `.env`
+
+  - To test the API use [Postman](https://www.postman.com/) or [Hoppscotch.io](https://hoppscotch.io/)
 
 <br>
 
@@ -100,7 +105,7 @@ If user is authenticated can get all users, delete own account and update own us
 
 <hr>
 
-# 🛠️ Maybe you wish to Start from scratch?
+# 🛠️ Start from Scratch
 
 - In your chosen folder type:
 
@@ -165,8 +170,6 @@ if not just change it to:
 ```
 
 - Create the `src` folder and `index.ts` in it to run your server.
-
-- To run the server you need your `MONGO_URI`string to connect to your DB, which you should place in the `.env.exmaple` file and rename it to `.env`
 
 - You will also need to install the required dependacies and their types:
 
