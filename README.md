@@ -32,7 +32,10 @@
 # 🖥️ About
 
 <div align="center">
-This is a REST API 
+This is a simple REST API with TypeScript allowing user registration, authentication with cookies.
+
+If user is authenticated can get all users, delete own account and update own username.
+
 </div>
 
 <br/>
@@ -161,7 +164,9 @@ if not just change it to:
 },
 ```
 
-- Create the `src` folder and `index.ts` in it.
+- Create the `src` folder and `index.ts` in it to run your server.
+
+- To run the server you need your `MONGO_URI`string to connect to your DB, which you should place in the `.env.exmaple` file and rename it to `.env`
 
 - You will also need to install the required dependacies and their types:
 
