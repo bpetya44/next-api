@@ -18,7 +18,7 @@
 - [Getting Started](#-getting-started)
 
   - [Install](#-install)
-  - [Start from Scratch](#-install)
+  - [Start from Scratch](#-start-from-scratch)
 
     </details>
       </td>
