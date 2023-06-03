@@ -105,7 +105,7 @@ If user is authenticated can get all users data, delete own account and update o
 
 <hr>
 
-# 🛠️ Start from Scratch
+## 🛠️ Start from Scratch
 
 - In your chosen folder type:
 
